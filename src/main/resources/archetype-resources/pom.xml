@@ -40,10 +40,8 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<sourceDirectory>${basedir}/src/main/java</sourceDirectory>
 		<resources>
-			<resource>
-				<directory>${basedir}/src/main/java</directory>
-			</resource>
 			<resource>
 				<directory>${basedir}/src/main/webapp</directory>
 			</resource>
