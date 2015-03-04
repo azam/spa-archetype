@@ -34,4 +34,7 @@
 		<system>GitHub</system>
 		<url>https://github.com/azamshul/spa-archetype/issues</url>
 	</issueManagement>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 </project>
