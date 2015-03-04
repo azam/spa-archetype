@@ -1,4 +1,7 @@
-package io.azam.spa;
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+package ${package};
 
 import java.io.File;
 import java.io.IOException;
@@ -28,7 +31,7 @@ import javax.servlet.http.HttpServletResponse;
 public class WebServlet extends HttpServlet {
 	private static final long serialVersionUID = 2483441926147739498L;
 	private static final String DEFAULT_PATH_SEPARATOR = "/";
-	private static final String DEFAULT_WEB_PATH = "www";
+	private static final String DEFAULT_WEB_PATH = "web";
 	private static final String DEFAULT_CACHE_CONTROL = "no-transform,public,max-age=3600,s-maxage=7200";
 	private static final Set<String> DEFAULT_INDEX_NAMES = new HashSet<String>(
 			Arrays.asList("index.html", "index.htm"));

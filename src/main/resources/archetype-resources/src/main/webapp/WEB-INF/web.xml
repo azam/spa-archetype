@@ -1,3 +1,6 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
 <?xml version="1.0" encoding="UTF-8" ?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<display-name>web</display-name>
@@ -9,7 +12,7 @@
 		<description></description>
 		<display-name>web</display-name>
 		<servlet-name>web</servlet-name>
-		<servlet-class>io.azam.spa.WebServlet</servlet-class>
+		<servlet-class>${package}.WebServlet</servlet-class>
 		<init-param>
 			<param-name>webPath</param-name>
 			<param-value>web</param-value>
