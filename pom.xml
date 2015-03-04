@@ -4,4 +4,34 @@
 	<artifactId>spa-archetype</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
+	<name>SPA Maven Archetype</name>
+	<description>Single page application (SPA) Java servlet Maven archetype</description>
+	<url>https://github.com/azamshul/spa-archetype</url>
+	<licenses>
+		<license>
+			<name>The MIT License (MIT)</name>
+			<url>http://opensource.org/licenses/MIT</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<url>https://github.com/azamshul/spa-archetype.git</url>
+	</scm>
+	<developers>
+		<developer>
+			<id>1</id>
+			<name>azamshul</name>
+			<email>azamshul@gmail.com</email>
+			<organization>azam.io</organization>
+			<organizationUrl>http://azam.io</organizationUrl>
+			<roles>
+				<role>Geek</role>
+			</roles>
+			<timezone>+9</timezone>
+		</developer>
+	</developers>
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/azamshul/spa-archetype/issues</url>
+	</issueManagement>
 </project>
