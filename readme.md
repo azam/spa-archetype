@@ -2,7 +2,7 @@
 Single page application (SPA) Java servlet Maven archetype. This archetype creates a Maven war project that serves static files. CORS filter is added by default. Includes tomcat7-maven-plugin to assist page hosting locally.
 
 # Usage
-1. Use Maven's `archetype:generate goal` to generate your project.
+1. Use Maven's `archetype:generate` goal to generate your project.
 
   ```
 mvn archetype:generate -DgroupId=mygroup -DartifactId=myspa -Dversion=0.0.1-SNAPSHOT -DpackageName=my.package.spa -DarchetypeGroupId=io.azam.spa -DarchetypeArtifactId=spa-archetype -DarchetypeVersion=0.0.1-SNAPSHOT -DinteractiveMode=false
