@@ -7,7 +7,7 @@
 	<packaging>jar</packaging>
 	<name>SPA Maven Archetype</name>
 	<description>Single page application (SPA) Java servlet Maven archetype</description>
-	<url>https://github.com/azamshul/spa-archetype</url>
+	<url>https://github.com/azam/spa-archetype</url>
 	<licenses>
 		<license>
 			<name>The MIT License (MIT)</name>
@@ -16,7 +16,7 @@
 		</license>
 	</licenses>
 	<scm>
-		<url>https://github.com/azamshul/spa-archetype.git</url>
+		<url>https://github.com/azam/spa-archetype.git</url>
 	</scm>
 	<developers>
 		<developer>
@@ -33,7 +33,7 @@
 	</developers>
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/azamshul/spa-archetype/issues</url>
+		<url>https://github.com/azam/spa-archetype/issues</url>
 	</issueManagement>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
