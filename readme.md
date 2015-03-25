@@ -1,5 +1,5 @@
 # spa-archetype
-==
+
 Single page application (SPA) Java servlet Maven archetype. This archetype creates a Maven war project that serves static files. CORS filter is added by default. Includes tomcat7-maven-plugin to assist page hosting locally.
 
 ## Usage
