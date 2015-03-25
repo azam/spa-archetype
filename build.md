@@ -1,5 +1,4 @@
 # Build and Release notes
-==
 
 ## Build
 
