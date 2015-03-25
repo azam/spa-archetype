@@ -7,7 +7,7 @@ Single page application (SPA) Java servlet Maven archetype. This archetype creat
 1. Use Maven's `archetype:generate` goal to generate your project.
 
   ```
-mvn archetype:generate -DgroupId=mygroup -DartifactId=myspa -Dversion=0.0.1-SNAPSHOT -DpackageName=my.package.spa -DarchetypeGroupId=io.azam.spa -DarchetypeArtifactId=spa-archetype -DarchetypeVersion=1.0.0 -DinteractiveMode=false
+mvn archetype:generate -DgroupId=mygroup -DartifactId=myspa -Dversion=0.0.1-SNAPSHOT -DpackageName=my.package.spa -DarchetypeGroupId=io.azam.spa -DarchetypeArtifactId=spa-archetype -DarchetypeVersion=1.0.1 -DinteractiveMode=false
 ```
 or simply use the interactive archetype generation and navigate through the questions.
 
