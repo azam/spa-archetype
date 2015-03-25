@@ -20,7 +20,25 @@
 			</includes>
 		</fileSet>
 		<fileSet filtered="true" packaged="false">
-			<directory>src/main/web</directory>
+			<directory>src/main/webapp/web</directory>
+			<includes>
+				<include>index.html</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="true" packaged="true">
+			<directory>src/test/java</directory>
+			<includes>
+				<include>WebServletTest.java</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="false" packaged="false">
+			<directory>src/test/resources/META-INF</directory>
+			<includes>
+				<include>mime.types</include>
+			</includes>
+		</fileSet>
+		<fileSet filtered="true" packaged="false">
+			<directory>src/test/webapp/web</directory>
 			<includes>
 				<include>index.html</include>
 			</includes>

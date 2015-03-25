@@ -20,10 +20,15 @@
 		<init-param>
 			<param-name>cacheControl</param-name>
 			<param-value>no-transform,public,max-age=3600,s-maxage=7200</param-value>
+			<!-- <param-value>no-cache</param-value> -->
 		</init-param>
 		<init-param>
 			<param-name>indexNames</param-name>
 			<param-value>index.html,index.htm</param-value>
+		</init-param>
+		<init-param>
+			<param-name>methods</param-name>
+			<param-value>get</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
